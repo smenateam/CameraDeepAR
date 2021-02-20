@@ -17,6 +17,7 @@ enum CameraDirection { back, front }
 
 enum Masks {
   none,
+  my_mask,
   aviators,
   bigmouth,
   dalmatian,
@@ -86,7 +87,7 @@ class CameraDeepAr extends StatefulWidget {
       ],
       this.supportedMasks = const [
         Masks.none,
-        Masks.aviators,
+        Masks.my_mask,
         Masks.bigmouth,
         Masks.dalmatian,
         Masks.look2,
