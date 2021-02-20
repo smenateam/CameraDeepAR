@@ -30,26 +30,7 @@ enum RecordingMode : String, CaseIterable {
 
 enum Masks: String, CaseIterable {
     case none
-    case aviators
     case my_mask
-    case bigmouth
-    case dalmatian
-    case bcgSeg
-    case look2
-    case fatify
-    case flowers
-    case grumpycat
-    case koala
-    case lion
-    case mudMask
-    case obama
-    case pug
-    case slash
-    case sleepingmask
-    case smallface
-    case teddycigar
-    case tripleface
-    case twistedFace
 }
 
 enum Effects: String, CaseIterable {
